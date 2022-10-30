@@ -7,10 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 :root{
-  --color:#749f82;
-  --color-bg-variant:#425f57;
-  --color-primary:#a8e890;
-  --color-primary-variant:#8bbccc;
+  --color:#645caa;
+  --color-bg-variant:#a084ca;
+  --color-primary:#bfaced;
+  --color-primary-variant:#ebc7e8;
   --color-white:#fff;
   --color-light:rgba(255,255,255,0.6);
   --container-width-lg:75%;

@@ -1,0 +1,6 @@
+.body_container{
+    display: grid;
+    grid-template-columns: auto;
+    background-color:#cdf0ea;
+    padding: 4rem;
+}

@@ -3,7 +3,6 @@ footer{
     padding:3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 22rem;
 }
 footer a{
     color: var(--color-bg);
@@ -57,12 +56,17 @@ color: var(--color-white);
 }
 @media screen and (max-width:600px) {
     .permalinks{
+        width: 100%;
         flex-direction: column;
-        gap: 1.2rem;
+        justify-content:space-evenly;
+        padding-right:2.3rem;
 
     }
     .footer__socials{
         margin-bottom: 2.6rem;
+    }
+    li{
+        list-style: none;
     }
 }
 /* upgraded on june 3 */

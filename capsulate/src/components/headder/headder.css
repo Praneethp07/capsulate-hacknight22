@@ -1,3 +1,5 @@
 .headder_container{
-    background-color: var(--color-primary);
+    background-color: var(--color-bg-variant);
+    border: 0.1px solid black;
+    position:sticky;
 }

@@ -1,0 +1,8 @@
+.nav_container{
+    position:sticky;
+    background-color: var(--color-bg);
+}
+.navbar{
+    width: 100%;
+    border-radius: 1rem;
+}
