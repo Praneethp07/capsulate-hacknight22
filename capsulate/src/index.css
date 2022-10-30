@@ -6,7 +6,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+:root{
+  --color:#749f82;
+  --color-bg-variant:#425f57;
+  --color-primary:#a8e890;
+  --color-primary-variant:#8bbccc;
+  --color-white:#fff;
+  --color-light:rgba(255,255,255,0.6);
+  --container-width-lg:75%;
+  --container-width-md:86%;
+  -container-width-sm:100%;
+  --transition: all 400ms ease out;
+  --image-size:300px;
+  --blob-color:linear-gradient(rgb(219, 212, 228),rgb(139, 82, 185));
+  --color-cards:var(--color-bg-variant);
+  --color-hover:linear-gradient(145deg, #21213c, #1c1c32);
+  --color-text:white;
+  --color-text2:black;
+  --box-shadow-hover:12px 12px 24px #0f0f1b,
+  -12px -12px 24px #2f2f55;
+  --color-nav-active:linear-gradient(145deg,var(--color-white),var(--color-bg-variant));
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
