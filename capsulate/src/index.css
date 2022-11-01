@@ -20,7 +20,7 @@ body {
   --image-size:300px;
   --blob-color:linear-gradient(rgb(219, 212, 228),rgb(139, 82, 185));
   --color-cards:var(--color-bg-variant);
-  --color-hover:linear-gradient(145deg, #21213c, #1c1c32);
+  --color-hover:linear-gradient(145deg, #a0264e, #bc22cd);
   --color-text:white;
   --color-text2:black;
   --box-shadow-hover:12px 12px 24px #0f0f1b,

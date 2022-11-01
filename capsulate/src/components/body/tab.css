@@ -3,3 +3,19 @@
     flex-direction: column;
     background-color: var(--color-bg-variant);
 }
+Tab{
+    border: 2px solid black;
+    list-style:symbols('#');
+}
+.tabscon{
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 42px;
+    border-radius: 42px;
+    background: #7c62a3;
+    box-shadow:  5px 5px 10px #4c3c63,
+                 -5px -5px 10px #ac88e3;
+}

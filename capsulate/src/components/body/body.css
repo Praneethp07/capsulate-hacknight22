@@ -4,3 +4,6 @@
     background-color:#cdf0ea;
     padding: 4rem;
 }
+.item{
+    max-width: max-content;
+}

@@ -6,6 +6,7 @@ const Headder = () => {
   return (
     <header>
       <div class="headder_container">
+        {/* <h1>headder</h1> */}
         <NAV />
       </div>
     </header>
