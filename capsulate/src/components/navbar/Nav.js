@@ -8,7 +8,7 @@ import './nav.css'
 import { useState } from 'react';
 import Tabswitch from '../body/Tab';
 
-var genName;
+
 function NavScrollExample() { 
   const [medicineName,setmedicineName] = useState('')
   const [arry,setarry] = useState([])
@@ -16,7 +16,7 @@ function NavScrollExample() {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '3183922243msha93bf5f6682c01fp1d5c51jsnd707180fcc5c',
+        'X-RapidAPI-Key':`${process.env.REACT_APP_VERY_PRIVATE_KEY}`,
         'X-RapidAPI-Host': 'drug-info-and-price-history.p.rapidapi.com'
       }
     };
@@ -27,7 +27,7 @@ function NavScrollExample() {
       })
       .then((data)=>{
         setarry(data) //all the data fetched from the api is stored in the data array then we will be maping the data
-        genName=data[0].generic_name;
+        // genName=data[0].generic_name;
         // console.log(genName)
       })
       .catch(err => console.error(err));
@@ -44,7 +44,7 @@ function NavScrollExample() {
     <div class="navbar">
         <Navbar sticky='top' bg="light" expand="bl" className='nav_container'>
       <Container fluid>
-        <Navbar.Brand href="#">CAPSULATE💊🩺 </Navbar.Brand>
+        <Navbar.Brand href="#">CAPSULATE<span> 💊</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

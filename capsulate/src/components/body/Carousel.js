@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import capsule1 from './../../../src/static/capsule1.png'
-import capsule2 from './../../../src/static/prop1.png'
+import image1 from './../static/image1.jpg'
+import image2 from './../static/image2.jpg'
+import image3 from './../static/image3.jpg'
+import image4 from './../static/image4.jpg'
+import image5 from './../static/image5.jpg'
+import image6 from './../static/image6.jpg'
 import './body.css'
 
 
@@ -17,8 +21,8 @@ export default function ControlledCarousel() {
       <Carousel.Item>
         <div className='item'>
         <img
-          className="d-block w-100"
-          src={capsule1}
+          className="d-sm-block w-100"
+          src={image1}
           alt="First slide"
         />
         </div>
@@ -30,8 +34,8 @@ export default function ControlledCarousel() {
       <Carousel.Item>
         <div className='item'>
         <img
-          className="d-block w-100"
-          src={capsule2}
+          className="d-sm-block w-100"
+          src={image2}
           alt="Second slide"
         />
         </div>
@@ -41,17 +45,57 @@ export default function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-       <div className='item'>
-       <img
+        <div className='item'>
+        <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          src={image3}
+          alt="Second slide"
         />
-       </div>
+        </div>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
-      </Carousel.Item>  
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className='item'>
+        <img
+          className="d-block w-100"
+          src={image4}
+          alt="Second slide"
+        />
+        </div>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className='item'>
+        <img
+          className="d-block w-100"
+          src={image5}
+          alt="Second slide"
+        />
+        </div>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className='item'>
+        <img
+          className="d-sm-block w-100"
+          src={image6}
+          alt="Second slide"
+        />
+        </div>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   );
 }

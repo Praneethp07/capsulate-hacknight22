@@ -16,7 +16,7 @@ function Tabswitch(props) {
               return (
                 <ul>
                   <li><h4>generic name:{item.generic_name}</h4></li>
-                  <li><h4>medicine name:{item.medicine_name}</h4></li>
+                  {/* <li><h4>medicine name:{item.medicineame}</h4></li> */}
                   <li><h4>labeler name:{item.labeler_name}</h4></li>
                   <li><h4>brand name:{item.brand_name}</h4></li>
                   <li><h4>dosage form:{item.dosage_form}</h4></li>
@@ -50,7 +50,7 @@ function Tabswitch(props) {
               return (
                 <ul>
                   <li><h4>ingredient name:{item.active_ingredients[0].name}</h4></li>
-                  <li><h4>strength:{item.active_ingredients[1].strength}</h4></li>
+                  {/* <li><h4>strength:{item.active_ingredients[1].strength}</h4 ></li> */}
                 </ul>
               )
             })}</h4>
